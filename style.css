@@ -317,3 +317,57 @@ h3{
     display: flex;
     justify-content: center;
 }
+.ext{
+    display: flex;
+    justify-content: space-between;
+}
+.desc-ss{
+    font-family: p2;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0 210px;
+}
+.st-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.st{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.stname{
+    font-size: 20px;
+    font-family: poppins;
+}
+.dt{
+    font-family: p2;
+}
+.ssim{
+    width: 80px;
+    height: auto;
+    margin-bottom: 70px;
+}
+.wa{
+    width: 60px;
+}
+.wa-btn{
+    border: 1px solid #857f7f;
+    width: 140px;
+    height: 50px;
+    background-color: #ffffff;
+    font-size: large;
+    border-radius: 16px;
+    font-family: p2;
+    color: #857f7f;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
