@@ -125,13 +125,14 @@ iframe{
 .lagim{
     display: flex;
     justify-content: space-evenly;
-    padding:100px 130px ;
+    padding:100px 130px 50px;
 }
 .headings{
     font-size: 40px;
     margin-bottom: 40px;
     text-align: center;
     font-family:Poppins;
+    margin-top: 50px;
 }
 .ab1{
     width: 550px;
@@ -166,8 +167,53 @@ iframe{
 .aboutus{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .ab2{
     margin-left: 20px;
     margin-bottom: 100px;
+}
+.desc-cai{
+    font-family: p2;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 1140px;
+}
+.cai-img{
+    width: 343px;
+    height: 252px;
+    border-radius: 20px;
+}
+.head-cai{
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: bolder;
+    background-color: #25377D;
+    color: white;
+}
+.cai-desc{
+    font-family: p2;
+    font-weight: 500;
+    background-color: #25377D;
+    color: white;
+    padding: 10px;
+    padding-left: 3px;
+}
+.cai-1{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    width: 340px;
+    height: 570px;
+}
+.cai{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1150px;
+}
+.cai-main{
+    display: flex;
+    flex-flow: column;
+    align-items:center;
 }
