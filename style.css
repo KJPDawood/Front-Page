@@ -74,6 +74,10 @@
     color: white;
     font-family:Poppins;
 }
+.an:active{
+    color: black;
+    background-color: #ffffff;
+}
 .head{
     font-size: 56px;
     /* border: 1px solid; */
@@ -97,6 +101,10 @@
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     font-family:Poppins;
+}
+.an2,.lrm:active{
+    background-color: #ef6323;
+    color: #ffffff;
 }
 .fll{
     display: flex;
@@ -183,6 +191,11 @@
     width: 343px;
     height: 252px;
     border-radius: 20px;
+    animation-name: left ;
+    animation-duration: 1.5s;
+}
+.cai-img:hover{
+    transform: scale(1.1);
 }
 .head-cai{
     font-size: 32px;
@@ -226,6 +239,9 @@
     font-size: small;
     font-family: p2;
     font-weight: 600;
+}
+.para:hover{
+    color: rgb(255, 191, 0);
 }
 h3{
     font-family: poppins;
@@ -370,4 +386,42 @@ h3{
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+#i2{
+    animation-name: up;
+    animation-duration: 1.5s;
+}
+#i3{
+    animation-name: right;
+    animation-duration: 1.5s;
+}
+@keyframes up {
+    from{
+        opacity: 0;
+        transform: translate(0,100px);
+    }
+    to{
+        opacity: 100;
+        transform: translate(0);
+    }
+}
+@keyframes left {
+    from{
+        opacity: 0;
+        transform: translate(-100px , 0);
+    }
+    to{
+        opacity: 100;
+        transform: translate(0);
+    }
+}
+@keyframes right {
+    from{
+        opacity: 0;
+        transform: translate(100px , 0);
+    }
+    to{
+        opacity: 100;
+        transform: translate(0);
+    }
 }
