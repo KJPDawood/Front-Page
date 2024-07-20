@@ -117,7 +117,7 @@
     /* position: relative;
     top: 120px; */
 }
-iframe{
+.yt{
     height: 440px;
     width: 440px;
     border-radius: 40px;
@@ -125,14 +125,14 @@ iframe{
 .lagim{
     display: flex;
     justify-content: space-evenly;
-    padding:100px 130px 50px;
+    padding:100px 130px 0px;
 }
 .headings{
     font-size: 40px;
     margin-bottom: 40px;
     text-align: center;
     font-family:Poppins;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .ab1{
     width: 550px;
@@ -167,7 +167,6 @@ iframe{
 .aboutus{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
 }
 .ab2{
     margin-left: 20px;
@@ -216,4 +215,105 @@ iframe{
     display: flex;
     flex-flow: column;
     align-items:center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px
+}
+.flrn2{
+    font-size: small;
+    font-family: p2;
+    font-weight: 600;
+}
+h3{
+    font-family: poppins;
+}
+.flrn1{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+.flrn{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom: 20px;
+}
+.ytclss{
+    width: 350px;
+    height: 200px;
+    margin: 5px;
+}
+.ytcls{
+    display: flex;
+    flex-flow: column;
+}
+.ytclasses{
+    display: flex;
+}
+.lmd{
+    border: none;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 8px;
+}
+.sub{
+    border: none;
+    background-color: rgb(96, 183, 220);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 8px;
+}
+.blog1{
+    width: 300px;
+    height: 300px;
+    background-color: #25377D;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    align-items: center;
+}
+.hbl{
+    text-transform: uppercase;
+    color: white;
+    font-family: p2;
+    background-color: #ef6323;
+    display: inline;
+    padding: 3px;
+    font-size: 14px;
+    width: fit-content;
+}
+.bl,.bl2{
+    color: #ffffff;
+    font-family: poppins;
+    font-size: 26px;
+    text-transform: capitalize;
+    padding:0 80px;
+}
+.rm{
+    color: #ffffff;
+    font-family: p2;
+}
+.bl2{
+    padding:0 40px;
+}
+.blogs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 630px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
 }
