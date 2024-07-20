@@ -112,3 +112,8 @@ iframe{
     width: 440px;
     border-radius: 40px;
 }
+.lagim{
+    display: flex;
+    justify-content: space-evenly;
+    padding:100px 100px ;
+}
