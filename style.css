@@ -1,3 +1,33 @@
+@keyframes up {
+    from{
+        opacity: 0;
+        transform: translate(0,100px);
+    }
+    to{
+        opacity: 100;
+        transform: translate(0);
+    }
+}
+@keyframes left {
+    from{
+        opacity: 0;
+        transform: translate(-100px , 0);
+    }
+    to{
+        opacity: 100;
+        transform: translate(0);
+    }
+}
+@keyframes right {
+    from{
+        opacity: 0;
+        transform: translate(100px , 0);
+    }
+    to{
+        opacity: 100;
+        transform: translate(0);
+    }
+}
 @font-face {
     font-family: Poppins;
     src: url("fonts/Poppins-SemiBold.ttf");
@@ -129,6 +159,7 @@
     height: 440px;
     width: 440px;
     border-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .lagim{
     display: flex;
@@ -288,6 +319,12 @@ h3{
     border-radius: 5px;
     font-weight: 700;
     padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.sim{
+    width: 15px;
 }
 .blog1{
     width: 300px;
@@ -336,6 +373,11 @@ h3{
 .ext{
     display: flex;
     justify-content: space-between;
+    color: #ffffff;
+    width: 180px;
+}
+.blimg{
+    width: 13px;
 }
 .desc-ss{
     font-family: p2;
@@ -379,6 +421,7 @@ h3{
     border-radius: 16px;
     font-family: p2;
     color: #857f7f;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .cont{
     display: flex;
@@ -395,33 +438,46 @@ h3{
     animation-name: right;
     animation-duration: 1.5s;
 }
-@keyframes up {
-    from{
-        opacity: 0;
-        transform: translate(0,100px);
-    }
-    to{
-        opacity: 100;
-        transform: translate(0);
-    }
+footer{
+    height: 240px;
+    background-color: black;
+    display: flex;
+    align-items: last baseline;
 }
-@keyframes left {
-    from{
-        opacity: 0;
-        transform: translate(-100px , 0);
-    }
-    to{
-        opacity: 100;
-        transform: translate(0);
-    }
+.solinks{
+    width: 20px;
+    margin-left: 20px;
 }
-@keyframes right {
-    from{
-        opacity: 0;
-        transform: translate(100px , 0);
-    }
-    to{
-        opacity: 100;
-        transform: translate(0);
-    }
+.slinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 430px;
+}
+.copy{
+    color: #ffffff;
+    font-family: poppins;
+    width: 800px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    width: 1650px;
+}
+.btns{
+    display: flex;
+}
+.hb{
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px; 
+    padding: 10px;
+    display: none;
 }
